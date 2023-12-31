@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imoveis Caamaño - Apartamento para venda em Copacabana #04</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<meta name="description" content="imoveis para venda e aluguel no rio de janeiro">
+<meta name="keywords" content="imoveis caamano, imoveis para venda, imoveis para aluguel, apartamentos para venda, apartamentos para aluguel, caamano, imoveis, apartamento">
+<meta name="author" content="Vinicius Caamaño">
+
+</head>
+
+<header>
+  <div id="logo">
+    <h1>Imóveis Caamaño</h1></div>
+  <div id="menu">
+      <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="venda.html">Venda</a></li>
+          <li><a href="aluguel.html">Aluguel</a></li>
+          <li><a href="corretores.html">Corretores</a></li>
+          <li><a href="cadastre.html">Cadastrar imóvel</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=5521976276013">Contato</a></li>
+      </ul>
+  </div>
+
+
+
+
+
+</header>
+
+
+<body>
+    <a href="index.html"><h5>Voltar</h5></a>
+    <div class="continfo">
+      <div class="slide">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Fred/1.jpeg" style="width:100%">
+        
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Fred/536398826880202.jpeg" style="width:100%">
+       
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="Fred/175362467228563.jpg" style="width:100%">
+          
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+     
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+    </div>
+
+    <div class="infopage">
+        <h3>Apartamento para venda em copacabana</h3>
+        <h3>R$ 1.799.000</h3>
+    
+        <p>OApt com duas entradas, uma pela Av Atlântica  e outra pela rua Belfor Roxo.
+
+            Garagem com manobrista.
+            
+            Apartamento com 3 quartos mais dependência, com 3 banheiros (1 social, 1 na suíte e 1 de serviço).
+            
+            Totalmente reformado em 2022 por arquiteto, com fiação trifásica pronta pra automatização e tubulação de cobre já embutida para instalação de ar condicionado split.
+            
+            Suíte com closet e chuveiro duplo no box, com todos os acabamentos em Gold e cromoterapia.</p>
+    
+
+            <ul>
+                <li>Condomínio R$  1.350 </li>
+                <li>IPTU R$ 350</li>
+            </ul>
+            <ul>
+                <li>Quartos: 3 </li>
+                <li>Banheiros: 3</li>
+                <li>Vaga: 1</li>
+                <li>112m²</li>
+            </ul>
+            <div class="mar">
+            <h6>Codigo do imóvel: #02</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58878.6847245176!2d-43.418137402652455!3d-22.731296620829436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996f6e2b493369%3A0xbb7fb4c04edcc270!2sBelford%20Roxo%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1703261484090!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://api.whatsapp.com/send?phone=5521976276013"><button>Agendar uma visita</button></a>
+        </div>
+        </div>
+
+
+
+    
+
+
+
+</div>
+
+
+
+</body>
+<footer>
+  <p>imoveis Caamaño @ todos os direitos reservados.</p>
+</footer>
+</html>

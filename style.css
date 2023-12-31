@@ -1,0 +1,722 @@
+*{font-weight: normal;}
+h1{font-family: 'Dancing Script', cursive;
+font-size: 50px;
+}
+body{margin: 0px;}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+#menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#menu  li{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.conte{
+    
+    display: flex;
+    align-items:center;
+    justify-content: left;
+
+margin-left: 250px;
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+
+
+    
+
+}
+
+.imoveis{
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+margin-left: 15px;
+width: 320px;
+height: 420px;
+background-color: rgba(236, 236, 236, 0);
+border: solid 1px rgba(128, 128, 128, 0.295);
+
+}
+.imoveis img{
+
+    width: 320px;
+    height: 210px;
+ 
+    
+
+    
+}
+
+h2{
+  font-weight: normal;
+    font-size: 18px;
+  height: 30px;
+  text-align: center;
+  margin: 10px 10px;
+
+
+
+}
+
+h3{
+ 
+ 
+
+  font-size: 25px;
+
+  margin:15px 5px;
+ 
+}
+
+
+#desc ul{
+  
+    font-size: 17px;
+    list-style-type: none;
+}
+#desc li{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imo{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+ button{
+  
+    
+width: 310px;
+margin-left: 4px;
+margin: 0px 5px;
+
+height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 15px;border: 0px;
+ 
+    cursor: pointer;
+}
+
+#conts img{
+    width: 320px;
+    border-radius: 50%;  
+     margin-right: 100px;
+   
+}
+#conts{
+    justify-content: center;
+   margin-top: 70px;
+    display: flex;
+   
+ 
+
+}
+.continfo{
+  display: flex;
+}
+
+h4{
+    font-size: 30px;
+}
+
+#info p{
+    font-size: 20px;
+    padding: 0px;
+
+}
+
+h6{
+    font-size: 11px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+.if{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+body {font-family: sans-serif; }
+.mySlides {display: none; }
+.mySlides img {vertical-align: middle;width: 100%; height: 900px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.slide{
+  width: 800px;
+  height: 700px;
+
+}
+.continfo{
+    margin-top: 90px;
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.infopage{
+    width: 900px;
+    text-align: left;
+    
+    background-color: rgba(255, 255, 255, 0);
+  
+
+}
+
+.infopage ul{
+    font-weight: bol;
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+
+
+    list-style-type: none;
+}   
+
+.infopage ul li{
+   margin-left: 10px;
+   
+}
+
+.infopage p{
+    margin: 0px 20px; 
+}
+.infopage button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 20px 100px;
+
+}
+
+
+
+.infopage a{
+text-decoration: none;
+list-style-type: none;
+}
+h5{
+    margin-left: 100px;
+    color: black;
+}
+
+.mar{
+    margin-left: 20px;
+}
+
+.slideshow{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+footer p{
+  margin-top: 90px;
+}
+
+
+#footercorre{
+  margin-top: 614px;
+}
+
+.cadastro{
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin: 50px 0px;
+  width: 100%;
+  height: 200px;
+
+}
+
+
+
+#cadastrarimovel{
+  text-align: center;
+}
+
+@media  (max-width: 430px) {
+ 
+  .slide{
+    width: 100%;
+  }
+  .slide img{
+    width: 100%;
+  }
+
+ h1{
+  font-size: 50px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+  #logo{
+    display: flex;
+  align-items: center;
+justify-content: center;
+width: 100%;
+
+
+}
+
+
+#menu{
+
+  margin-right: 60px;
+
+}
+
+
+
+#menu ul li{
+
+
+ 
+padding:10px;
+
+
+  
+}
+
+#slider{
+  width: 100%;
+  height: 300px;
+}
+header{
+  display: inline;
+  width: 100%;
+}
+
+.mySlides fade {
+  width: 100%;
+  height: auto;
+
+}
+.mySlides img {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.conte{
+  display: inline;
+  width: 100%;
+
+
+
+
+
+
+}
+
+h2{font-size: 16px; }
+.imoveis{
+  width: 100%;
+ margin-top: 20px;
+  padding: 0px;
+  height: 570px;
+  margin-left: 0px;
+}
+
+.imoveis img{
+  width: 100%;
+  margin: 0px;
+}
+.imoveis button{
+  width: 380px;
+  margin: 0px;
+margin-left: 25px;
+}
+
+footer{
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#conts{
+  display: inline;
+
+
+}
+#conts img{
+  display: inline;
+margin-top: 40px;
+margin-left: 15%;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+h4{
+  font-size: 25px;
+}
+
+#info{
+  margin-left: 20px;
+
+}
+
+.continfo{
+  display: inline;
+  width: 100%;
+
+
+
+}
+.infopage{
+
+  width: 100%;
+  margin-left: 15px;
+  
+
+
+}
+
+.infopage p{
+  margin: 0px;
+  width: 390px;
+}
+
+h3{
+  margin-left: 2%;
+
+}
+
+iframe{
+  width: 360px;
+  margin: 0px;
+
+}
+
+.infopage button{
+  width: 360px;
+  margin: 0px;
+
+
+}
+.slide{
+  width: 430px;
+
+}
+.mySlides fade{
+width: 230px;
+  
+}
+
+}
+
+@media  (max-width: 390px) {
+
+.mySlides{
+  width: 100%;
+}
+
+.imoveis{
+  width: 100%;
+  height: 510px;
+
+}
+
+.imoveis img{
+  width: 100%;
+
+}
+.imoveis button{
+  width: 350px;
+  margin-left: 20px;
+}
+
+}
+
+
+
+
+@media  (max-width: 360px) {
+  footer{
+    font-size: 12px;
+    margin-left: 10px;
+padding: 0px;
+width: 100%;
+  }
+
+#logo{
+  width: 100%;
+}
+
+h1{
+
+  font-size: 40px;
+
+}
+
+header{
+  width: 100%;
+
+}
+.conte{
+  display: inline;
+  width: 100%;
+
+margin: 0px;
+padding: 0px;
+
+
+}
+
+h2{font-size: 16px;}
+.imoveis{
+  width: 100%;
+  margin-top: 20px;
+
+  padding: 0px;
+}
+
+.imoveis img{
+  margin: 0px;
+padding: 0px;
+width: 100%;
+  margin: 0px;
+}
+.imoveis button{
+  width: 330px;
+  margin-left: 15px;
+ 
+}
+
+
+
+
+
+
+#conts img{
+  display: inline;
+margin-top: 40px;
+justify-content: center;
+align-items: center;
+width: 240px;
+
+
+}
+
+
+.slide{
+  width: 100%;
+  
+
+  
+}
+
+.slide img{
+  width: 100%;
+
+}
+h4{
+  font-size: 20px;
+}
+
+h3{
+  margin-left: 10px;
+}
+.infopage p {
+  font-size: 15px;
+  width: 300px;
+  margin-left: 10px;
+
+
+}
+
+.infopage ul li{
+margin: 0px;
+padding: 5px;
+}
+.infopage{
+  width: 100%;
+ 
+
+}
+
+.slideshow-container{
+  width: 100%;
+  margin: 0px;
+}
+
+.infopage iframe{
+  width: 300px;
+
+
+}
+.mar button{
+  width: 300px;
+}
+}
+
+div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
+div#slider figure img { width: 20%; float: left; height: 800px;}
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
