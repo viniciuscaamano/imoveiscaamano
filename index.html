@@ -11,13 +11,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <meta rel="canonical" href="https://vinicius5693.github.io/">
 <meta name="description" content="imoveis para venda e aluguel no rio de janeiro">
-<meta name="keywords" content="imoveis caamano, imoveis para venda, imoveis para aluguel, apartamentos para venda, apartamentos para aluguel, caamano, imoveis, apartamento">
 <meta name="author" content="Vinicius Caamaño">
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4464058361284949"
      crossorigin="anonymous"></script>
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4464058361284949"
      crossorigin="anonymous"></script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1071RB768"></script>
 <script>
@@ -27,7 +27,6 @@
 
   gtag('config', 'G-H1071RB768');
 </script>
-
 </head>
 
 <header>
@@ -105,13 +104,46 @@ function carousel() {
 </div>
 
 <body>
-    
-
-
   
 
 <div class="cadastro"><a href="cadastre.html"><img src="cadas.png"></a></div>
 
+
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+<ul id="myUL">
+  <li><a href="venda.html">Venda</a></li>
+  <li> <a href="aluguel.html">Aluguel</a></li>
+
+  <li><a href="copacabana.html">copacabana</a></li>
+  <li>    <a href="botafogo.html">botafogo</a></li>
+
+  <li>    <a href="grajau.html">grajau</a></li>
+  <li>    <a href="tijuca.html">tijuca</a></li>
+  <li>    <a href="vilaisabel.html">vilaisabel</a></li>
+</ul>
+<script>
+  function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+  
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
 
 <h2>Imóveis em Destaque</h2>
     <div class="conte">
