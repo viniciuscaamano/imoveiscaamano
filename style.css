@@ -2,7 +2,11 @@
 
 body{margin: 0px;}
 
+#destaque h2{
+  font-size: 25px;
+  margin: 50px;
 
+}
 
 .dropbtn {
   background-color: rgba(0, 0, 0, 0.911);
@@ -14,6 +18,7 @@ body{margin: 0px;}
   width: 700px;
   border: solid 1px rgba(128, 128, 128, 0.116);
   border-radius: 5px;
+ 
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -38,7 +43,7 @@ body{margin: 0px;}
   position: relative;
   display: inline-block;
 left: 31%;
-  
+
 }
 
 .dropdown-content {
@@ -193,6 +198,19 @@ h3{
     padding: 0px;
  
 }
+#cadastrarimovel button{
+  width: 310px;
+  margin-left: 4px;
+  margin: 0px 5px;
+  
+  height: 60px;
+      background-color: black;
+      color: white;
+      font-size: 15px;border: 0px;
+   
+      cursor: pointer;
+
+}
 .imoveis button{
   
     
@@ -288,7 +306,7 @@ height: 800px;
 
 
 
-h2{font-size: 16px; }
+
 
 
 
@@ -571,7 +589,24 @@ margin: 100px 0px;
 #main{display: none;}
 
 @media  (max-width: 430px) {
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  left: 0;
+   
+  }
 
+  .dropbtn {
+    background-color: rgba(0, 0, 0, 0.911);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 430px;
+    border: solid 1px rgba(128, 128, 128, 0.116);
+    border-radius: 5px;
+  }
   .menu{display: none;}
  .cadastro{display: none;}
 
