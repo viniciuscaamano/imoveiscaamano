@@ -1,44 +1,63 @@
-*{font-weight: normal;}
-h1{font-family: 'Dancing Script', cursive;
-font-size: 50px;
-}
+*{font-weight: normal; font-family: sans-serif;}
+
 body{margin: 0px;}
 
-header{
+
+
+input[type=search] {
+  width: 700px;
+   height: 50px;
+  
+  }
+input[type=submit]{
+  width: 100px; 
+  height: 50px; 
+  background-color: black; 
+  color: white;
+border: 0px;
+border-radius: 5px;
+}
+.menupc{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-top: 30px;
+
+
+
+    
 }
 
-#logo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#menu{
+
+.menu{  
+
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: white;
    
 
 }
 
-#menu ul{
+.menu ul{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-#menu  li{
+.menu  li{
     padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#menu  a{
+.menu  a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,9 +72,10 @@ header{
     align-items:center;
     justify-content: left;
 
+
 margin-left: 250px;
     margin-top: 20px;
-    width: 400px;
+   
     height: auto;
 
 
@@ -64,16 +84,21 @@ margin-left: 250px;
 }
 
 .imoveis{
-    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+ 
 margin-left: 15px;
 width: 320px;
 height: 420px;
 background-color: rgba(236, 236, 236, 0);
-border: solid 1px rgba(128, 128, 128, 0.295);
+border: solid 1px rgba(128, 128, 128, 0.151);
 
 }
-.imoveis img{
 
+
+
+
+
+
+.imoveis img{
     width: 320px;
     height: 210px;
  
@@ -119,7 +144,7 @@ h3{
     padding: 0px;
  
 }
- button{
+  button{
   
     
 width: 310px;
@@ -137,13 +162,15 @@ height: 60px;
 #conts img{
     width: 320px;
     border-radius: 50%;  
-     margin-right: 100px;
+    
    
 }
 #conts{
     justify-content: center;
-   margin-top: 70px;
+   margin-top: 100px;
     display: flex;
+    align-items: center;
+width: 100%;
    
  
 
@@ -180,14 +207,128 @@ h6{
 
 
 
-body {font-family: sans-serif; }
-.mySlides {display: none; }
-.mySlides img {vertical-align: middle;width: 100%; height: 900px;}
+
+
+h1{
+  font-family: 'Dancing Script', cursive;
+font-size: 40px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.mySlides fade {
+width: 100%;
+height: auto;
+
+}
+.mySlides img {
+width: 100%;
+height: 800px;
+
+
+}
+
+
+
+h2{font-size: 16px; }
+
+
+
+
+footer{
+font-size: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 180px;
+background-color: black;
+color: white;
+width: 100%;
+height: 200px;
+
+
+}
+
+footer p{
+  margin-top: 10%;
+}
+
+
+#footercorre{
+  margin-top: 614px;
+}
+
+
+
+
+h4{
+font-size: 25px;
+}
+
+#info{
+margin-left: 20px;
+
+}
+
+
+.infopage{
+
+width: 100%;
+margin-left: 15px;
+
+
+
+}
+
+.infopage p{
+margin: 0px;
+width: 390px;
+}
+
+h3{
+margin-left: 2%;
+
+}
+
+iframe{
+width: 700px;
+margin: 0px;
+
+}
+
+.infopage button{
+width: 460px;
+height: 70px;
+
+
+
+
+}
+.slide{
+width: 430px;
+
+}
+.mySlides fade{
+width: 230px;
+
+}
+
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
+  top: 20px;
   margin: auto;
 }
 
@@ -260,10 +401,29 @@ body {font-family: sans-serif; }
   animation-duration: 1.5s;
 }
 
+.slider{
+margin-top: 40px;
+
+ 
+}
+
+.mySlides{
+
+height: 700px;
+}
+
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+
+
+
+
+
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -277,12 +437,12 @@ body {font-family: sans-serif; }
 .continfo{
     margin-top: 90px;
     display: flex;
-
+width: 100%;
     justify-content: space-evenly;
 }
 
 .infopage{
-    width: 900px;
+    width: 700px;
     text-align: left;
     
     background-color: rgba(255, 255, 255, 0);
@@ -307,6 +467,7 @@ body {font-family: sans-serif; }
 
 .infopage p{
     margin: 0px 20px; 
+    width: 700px;
 }
 .infopage button{
  display: flex;
@@ -337,28 +498,16 @@ h5{
     justify-content: center;
 }
 
-footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-}
-
-footer p{
-  margin-top: 90px;
-}
 
 
-#footercorre{
-  margin-top: 614px;
-}
+
 
 .cadastro{
 display: flex;
 align-items: center;
 justify-content: center;
 
-margin: 50px 0px;
+margin: 100px 0px;
   width: 100%;
   height: 200px;
 
@@ -369,354 +518,185 @@ margin: 50px 0px;
 #cadastrarimovel{
   text-align: center;
 }
+.sidebar{display: none;}
+#main{display: none;}
 
 @media  (max-width: 430px) {
- 
-  .slide{
-    width: 100%;
-  }
-  .slide img{
-    width: 100%;
-  }
 
- h1{
-  font-size: 50px; 
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  .menu{display: none;}
+ .cadastro{display: none;}
 
-}
-  #logo{
-    display: flex;
-  align-items: center;
-justify-content: center;
-width: 100%;
-
-
-}
-
-
-#menu{
-
-  margin-right: 60px;
-
-}
-
-
-
-#menu ul li{
-
-
- 
-padding:10px;
-
-
-  
-}
-
-#slider{
+ .slide{
+  display: inline;
   width: 100%;
-  height: 300px;
-}
-header{
+
+
+
+ }
+.infopage{
   display: inline;
   width: 100%;
 }
 
-.mySlides fade {
+ .mySlides{
+
+  height: 300px;
+  }
+ 
+ #conts{
+    display: inline;
+
+  
+  }
+  
+  #conts img{
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+
+
+ .conte{
+    
+  display: inline;
+
+
+
+
+margin-left: 0px;
+
   width: 100%;
   height: auto;
 
-}
-.mySlides img {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-}
-
-.conte{
-  display: inline;
-  width: 100%;
-
-
-
-
-
-
-}
-
-h2{font-size: 16px; }
-.imoveis{
-  width: 100%;
- margin-top: 20px;
-  padding: 0px;
-  height: 570px;
-  margin-left: 0px;
-}
-
-.imoveis img{
-  width: 100%;
-  margin: 0px;
-}
-.imoveis button{
-  width: 380px;
-  margin: 0px;
-margin-left: 25px;
-}
-
-footer{
-  font-size: 11px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-#conts{
-  display: inline;
-
-
-}
-#conts img{
-  display: inline;
-margin-top: 40px;
-margin-left: 15%;
-justify-content: center;
-align-items: center;
-
-
-
-}
-
-h4{
-  font-size: 25px;
-}
-
-#info{
-  margin-left: 20px;
-
-}
-
-.continfo{
-  display: inline;
-  width: 100%;
-
-
-
-}
-.infopage{
-
-  width: 100%;
-  margin-left: 15px;
   
 
-
-}
-
-.infopage p{
-  margin: 0px;
-  width: 390px;
-}
-
-h3{
-  margin-left: 2%;
-
-}
-
-iframe{
-  width: 360px;
-  margin: 0px;
-
-}
-
-.infopage button{
-  width: 360px;
-  margin: 0px;
-
-
-}
-.slide{
-  width: 430px;
-
-}
-.mySlides fade{
-width: 230px;
-  
-}
-
-}
-
-@media  (max-width: 390px) {
-
-.mySlides{
-  width: 100%;
 }
 
 .imoveis{
-  width: 100%;
-  height: 510px;
-
-}
-
-.imoveis img{
-  width: 100%;
-
-}
-.imoveis button{
-  width: 350px;
-  margin-left: 20px;
-}
-
-}
-
-
-
-
-@media  (max-width: 360px) {
-  footer{
-    font-size: 12px;
-    margin-left: 10px;
-padding: 0px;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+margin-left: 0px;
 width: 100%;
+height: 500px;
+background-color: rgba(236, 236, 236, 0);
+border: solid 1px rgba(128, 128, 128, 0.295);
+margin-top: 20px;
+}
+
+
+
+
+
+
+.imoveis img{
+  width: 100%;
+  height: 290px;
+
+  
+
+  
+}
+ 
+.imoveis button{
+  
+    
+  width: 100%;
+margin: 0px;
+
+  
+  height: 60px;
+      background-color: black;
+      color: white;
+      font-size: 15px;border: 0px;
+   
+      cursor: pointer;
   }
 
-#logo{
-  width: 100%;
-}
 
-h1{
-
-  font-size: 40px;
-
-}
-
-header{
-  width: 100%;
-
-}
-.conte{
-  display: inline;
-  width: 100%;
-
-margin: 0px;
-padding: 0px;
-
-
-}
-
-h2{font-size: 16px;}
-.imoveis{
-  width: 100%;
-  margin-top: 20px;
-
-  padding: 0px;
-}
-
-.imoveis img{
-  margin: 0px;
-padding: 0px;
-width: 100%;
-  margin: 0px;
-}
-.imoveis button{
-  width: 330px;
-  margin-left: 15px;
- 
-}
-
-
-
-
-
-
-#conts img{
-  display: inline;
-margin-top: 40px;
-justify-content: center;
-align-items: center;
-width: 240px;
-
-
-}
-
-
-.slide{
-  width: 100%;
+  .sidebar {
+    display: inline;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
   
-
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
   
-}
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 25px;
 
-.slide img{
-  width: 100%;
-
-}
-h4{
-  font-size: 20px;
-}
-
-h3{
-  margin-left: 10px;
-}
-.infopage p {
-  font-size: 15px;
-  width: 300px;
-  margin-left: 10px;
-
-
-}
-
-.infopage ul li{
-margin: 0px;
-padding: 5px;
-}
-.infopage{
-  width: 100%;
+    background-color: #111;
+    color: white;
+width: 40px;
+height: 40px;
+    border: none;
+    margin-right: 30px;
  
-
-}
-
-.slideshow-container{
-  width: 100%;
-  margin: 0px;
-}
-
-.infopage iframe{
-  width: 300px;
-
-
-}
-.mar button{
-  width: 300px;
-}
-}
-
-div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
-div#slider figure img { width: 20%; float: left; height: 800px;}
-
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
-}
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: margin-left .5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100px;
 
 
-/*esta parte del código define el movimiento de las imágenes a la izquierda*/
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+
+  }
+  
+  h2{margin-top: 15%;}
+
+  .continfo{
+    display: inline;
+  }
+  .slide{width: 100%;}
+  .mySlides img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .mar iframe{
+    width: 390px;
+  }
+
+  .mar button{
+    margin: 0px;
+    width: 390px;
+    margin-top: 20px;
+  }
 }
