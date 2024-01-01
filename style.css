@@ -715,6 +715,7 @@ margin-top: 5%;
 .imoveis img{
   width: 100%;
   height: 290px;
+  object-fit: cover;
 
   
 
