@@ -1,6 +1,10 @@
 *{font-weight: normal; font-family: sans-serif;}
 
-body{margin: 0px;}
+body{
+  margin: 0px;
+background-color: rgba(255, 255, 255, 0);
+}
+
 
 #destaque h2{
   font-size: 25px;
@@ -10,7 +14,7 @@ body{margin: 0px;}
 
 .dropbtn {
   background-color: rgba(0, 0, 0, 0.904);
-  color: white;
+  color: rgba(255, 255, 255, 0);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -18,6 +22,7 @@ body{margin: 0px;}
   width: 700px;
   border: solid 1px rgba(128, 128, 128, 0.116);
   border-radius: 5px;
+
  
 }
 
@@ -75,7 +80,7 @@ left: 31%;
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     margin-top: 30px;
 
 
@@ -598,19 +603,21 @@ margin: 100px 0px;
     position: relative;
     display: inline-block;
   left: 0;
+
    
   }
 
   .dropbtn {
     background-color: rgba(0, 0, 0, 0.911);
     color: white;
-    padding: 16px;
+   
     font-size: 16px;
     border: none;
     cursor: pointer;
     width: 430px;
     border: solid 1px rgba(128, 128, 128, 0.116);
     border-radius: 5px;
+
   }
   .menu{display: none;}
  .cadastro{display: none;}
@@ -622,9 +629,24 @@ margin: 100px 0px;
 
 
  }
+
+ .slider{
+  width: 100%;
+  height: 300px;
+ }
+
+ .slider img{
+
+  width: 100%;
+  height: 300px;
+ }
 .infopage{
   display: inline;
   width: 100%;
+}
+
+.infopage p{
+  width: 400px;
 }
 
  .mySlides{
@@ -665,10 +687,10 @@ margin-left: 0px;
   box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
 margin-left: 0px;
 width: 100%;
-height: 500px;
+height: 570px;
 background-color: rgba(236, 236, 236, 0);
 border: solid 1px rgba(128, 128, 128, 0.295);
-margin-top: 20px;
+margin-top: 5%;
 }
 
 
@@ -737,14 +759,15 @@ margin: 0px;
   }
   
   .openbtn {
-    font-size: 25px;
+    font-size: 20px;
 
     background-color: #111;
     color: white;
-width: 40px;
-height: 40px;
+width:35px;
+height: 35px;
     border: none;
     margin-right: 30px;
+    margin-left: 30px;
  
   }
   
