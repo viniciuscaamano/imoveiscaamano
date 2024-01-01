@@ -614,7 +614,12 @@ margin: 100px 0px;
 
 @media  (max-width: 430px) {
 
- 
+  h1{
+   
+  font-size: 30px;
+  
+  
+  }
   .dropdown {
     position: relative;
     display: inline-block;
