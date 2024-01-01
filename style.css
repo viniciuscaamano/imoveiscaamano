@@ -773,6 +773,9 @@ margin: 0px;
   }
 
   .openbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 100%;
 
     background-color: #111;
@@ -780,9 +783,8 @@ margin: 0px;
 width:10%;
 height: 40%;
     border: none;
-    margin-right: 5%;
-    margin-left: 5%;
- 
+   
+ margin:0% 5%;
   }
   
   .openbtn:hover {
@@ -790,7 +792,7 @@ height: 40%;
   }
   
   #main {
-    display: flex;
+     display: flex;
     justify-content: left;
     align-items: center;
     transition: margin-left .5s;
