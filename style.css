@@ -627,6 +627,13 @@ margin: 100px 0px;
 
 @media  (max-width: 430px) {
 
+  .bairros{
+    width: 100%;
+    display: inline;
+
+  
+  }
+
   h1{
 
   font-size: 30px;
