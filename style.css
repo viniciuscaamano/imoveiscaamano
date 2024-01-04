@@ -1,4 +1,4 @@
-*{font-weight: normal; font-family: sans-serif;}
+*{font-weight:500; font-family: arial;box-sizing: border-box;}
 
 
 
@@ -137,6 +137,8 @@ left: 31%;
     align-items:center;
     justify-content: left;
 
+    
+
 
 margin-left: 250px;
     margin-top: 20px;
@@ -151,12 +153,14 @@ margin-left: 250px;
 
 
 .imoveis{
- 
-margin-left: 15px;
-width: 320px;
-height: 420px;
+ margin: 10px;
+width: 340px;
+height: auto;
 background-color: rgba(236, 236, 236, 0);
-border: solid 1px rgba(128, 128, 128, 0.151);
+border: solid 1px rgba(128, 128, 128, 0.144);
+display: flex;
+justify-content: center;
+flex-direction: column;
 
 }
 
@@ -166,8 +170,8 @@ border: solid 1px rgba(128, 128, 128, 0.151);
 
 
 .imoveis img{
-    width: 320px;
-    height: 210px;
+    width: 100%;
+    height: 250px;
     object-fit: cover;
     
 
@@ -202,11 +206,11 @@ h2{
 
 h3{
  
- 
+ font-weight:600;
 
-  font-size: 25px;
+  font-size: 26px;
 
-  margin:15px 5px;
+
  
 }
 
@@ -242,15 +246,15 @@ h3{
 .imoveis button{
   
     
-width: 310px;
-margin-left: 4px;
-margin: 0px 5px;
+width: 90%;
+
+margin: 0px 17px;
 
 height: 60px;
     background-color: rgba(0, 0, 0, 0.904);
-    color: white;
-    font-size: 15px;border: 0px;
- 
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: 0px; 
     cursor: pointer;
 }
 
@@ -383,9 +387,12 @@ margin-left: 20px;
 
 
 .infopage{
+display: flex;
 
+justify-content: center;
+flex-direction: column;
 width: 100%;
-margin-left: 15px;
+
 
 
 
@@ -496,13 +503,17 @@ width: 230px;
 }
 
 .slider{
-margin-top: 3%;
+margin-top: 5%;
 width: 100%;
 object-fit: cover;
 justify-content: center;
 align-items: center;
 display: flex;
-height: 30%;
+height: 100%;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
 
 
  
@@ -510,7 +521,7 @@ height: 30%;
 
 .slider img{
   width: 100%;
-  height: 550px;
+  height: 620px;
   object-fit: cover;
 }
 .mySlides{
@@ -614,7 +625,14 @@ margin: 100px 0px;
 
 
 #cadastrarimovel{
-  text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column ;
+width: 90%;
+margin: 10px;
+
+
 }
 .sidebar{display: none;}
 #main{display: none;}
@@ -688,12 +706,16 @@ margin: 100px 0px;
   height: 100%;
  }
 .infopage{
-  display: inline;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
 }
 
 .infopage p{
-  width: 80%;
+  width: 90%;
+
 }
 
  .mySlides{
@@ -702,20 +724,26 @@ margin: 100px 0px;
   }
  
  #conts{
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
   
   }
   
   #conts img{
-    margin-top: 15%;
-    margin-left: 5%;
+  width: 50%;
+  border: solid 2px rgba(0, 0, 0, 0.082);
   }
 
 
  .conte{
     
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
 
 
@@ -733,8 +761,8 @@ margin-left: 0px;
 .imoveis{
   box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
 margin-left: 0px;
-width: 100%;
-height: 570px;
+width: 85%;
+height: auto;
 background-color: rgba(236, 236, 236, 0);
 border: solid 1px rgba(128, 128, 128, 0.295);
 margin-top: 10%;
@@ -747,7 +775,7 @@ margin-top: 10%;
 
 .imoveis img{
   width: 100%;
-  height: 290px;
+  height: 230px;
   object-fit: cover;
 
   
@@ -757,9 +785,12 @@ margin-top: 10%;
  
 .imoveis button{
   
-    
-  width: 100%;
-margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+  width:90%;
+
 
   
   height: 60px;
