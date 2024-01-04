@@ -110,43 +110,13 @@ function carousel() {
 
 
 <div id="destaque"><h2>Imóveis em Destaque</h2></div>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Filtrar os imóveis</button>
-  <div id="myDropdown" class="dropdown-content">
-    <input type="text" placeholder="pesquisar..." id="myInput" onkeyup="filterFunction()">
-    <a href="venda">Venda</a>
-    <a href="aluguel">Aluguel</a>
-    <a href="copacabana">Copacabana</a>
-    <a href="botafogo">Botafogo</a>
-    <a href="grajau">Grajaú</a>
-    <a href="tijuca">Tijuca</a>
-    <a href="vilaisabel">Vila isabel</a>
 
-  </div>
+
+
+
 </div>
+  
 
-<script>
-
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function filterFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  div = document.getElementById("myDropdown");
-  a = div.getElementsByTagName("a");
-  for (i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-</script>
 
 
 
@@ -154,7 +124,7 @@ function filterFunction() {
 
     <div class="conte">
 
-        <div class="imoveis">
+        <div class="imoveis Copacabana">
       
      
         <img src="Anderson/1.jpeg" >   
@@ -170,7 +140,7 @@ function filterFunction() {
 
 
 
-    <div class="imoveis">
+    <div class="imoveis Vila">
       
         <img src="marcos vila isabel/1.webp" >    
         <h2>Apartamento para venda em Vila Isabel</h2>    
@@ -181,7 +151,7 @@ function filterFunction() {
     </div>
 
 
-    <div class="imoveis">
+    <div class="imoveis Botafogo">
          
        <img src="Fred/1.jpeg" alt="">
        <h2>Apartamento para venda em Botafogo</h2> 
@@ -196,7 +166,7 @@ function filterFunction() {
   
 
 
-    <div class="imoveis">
+    <div class="imoveis Copacabana">
       
        <img src="paulo copa/1.webp" alt="">
    <h2>Apartamento para venda em Copacabana</h2>  
@@ -214,7 +184,7 @@ function filterFunction() {
 
 <div class="conte">
 
-  <div class="imoveis">
+  <div class="imoveis Grajau">
 
 
   <img src="vania05/4161767179.jpg" >   
@@ -227,7 +197,7 @@ function filterFunction() {
   <h6>Codigo do imóvel: #05</h6>
 </div>
 
-<div class="imoveis">
+<div class="imoveis Tijuca">
 
 
   <img src="vania06/4154306255.jpg" >   
@@ -240,7 +210,7 @@ function filterFunction() {
   <h6>Codigo do imóvel: #06</h6>
 </div>
 
-<div class="imoveis">
+<div class="imoveis Copacabana">
 
 
   <img src="vania07/4147591533.jpg" >   
@@ -253,7 +223,7 @@ function filterFunction() {
   <h6>Codigo do imóvel: #07</h6>
 </div>
 
-<div class="imoveis">
+<div class="imoveis Botafogo">
 
 
   <img src="vania08/4146136727.webp" >   
@@ -269,7 +239,7 @@ function filterFunction() {
 </div>
 <div class="conte">
 
-  <div class="imoveis">
+  <div class="imoveis Tijuca">
 
 
   <img src="Claudio tijuca/1.webp" >   
@@ -282,7 +252,7 @@ function filterFunction() {
   <h6>Codigo do imóvel: #09</h6>
 </div>
 
-<div class="imoveis">
+<div class="imoveis Copacabana">
 
 
   <img src="Besso/1.webp" >   

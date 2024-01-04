@@ -484,6 +484,10 @@ width: 230px;
 margin-top: 40px;
 width: 100%;
 object-fit: cover;
+justify-content: center;
+align-items: center;
+display: flex;
+height: 30%;
 
 
  
@@ -491,7 +495,7 @@ object-fit: cover;
 
 .slider img{
   width: 100%;
-  height: 800px;
+  height: 600px;
   object-fit: cover;
 }
 .mySlides{
@@ -599,6 +603,11 @@ margin: 100px 0px;
 }
 .sidebar{display: none;}
 #main{display: none;}
+
+
+
+
+
 
 @media  (max-width: 430px) {
 
