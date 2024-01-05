@@ -280,6 +280,9 @@ height: 700px;
 }
 .continfo{
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
 }
 
 h4{
@@ -351,10 +354,11 @@ object-fit: cover;
 
 
 footer{
-font-size: 15px;
+font-size: 12px;
 display: flex;
-align-items: center;
+align-items: flex-end;
 justify-content: center;
+flex-direction: row;
 background-color: rgba(0, 0, 0, 0.938);
 color: white;
 width: 100%;
@@ -368,9 +372,6 @@ margin-top: 5%;
 
 
 
-#footercorre{
-  margin-top: 614px;
-}
 
 
 
@@ -385,22 +386,7 @@ margin-left: 20px;
 }
 
 
-.infopage{
-display: flex;
 
-justify-content: center;
-flex-direction: column;
-width: 100%;
-
-
-
-
-}
-
-.infopage p{
-margin: 0px;
-width: 390px;
-}
 
 h3{
 margin-left: 2%;
@@ -415,7 +401,8 @@ margin: 0px;
 
 
 .slide{
-width: 430px;
+width: 50%;
+margin-right: 2%;
 
 }
 .mySlides fade{
@@ -537,54 +524,65 @@ height: 700px;
 
 }
 .continfo{
-    margin-top: 90px;
+    margin-top: 5%;
     display: flex;
+    flex-direction: row;
 width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
+
 }
 
 .infopage{
-    width: 700px;
-    text-align: left;
-    
-    background-color: rgba(255, 255, 255, 0);
-  
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  flex-direction: column;
 
-}
+  
+  
+  
+  
+  
+  }
+  
+  .infopage p{
+  margin: 0px;
+  width: 80%;
+  height: auto;
+ 
+  }
 
 .infopage ul{
-    font-weight: bol;
-    display: flex;
-    justify-content: left;
-    padding-top: 10px;
-
-
+   
     list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  margin-top: 5%;
+    
 }   
 
 .infopage ul li{
-   margin-left: 10px;
-   
+
+ margin-right: 5%;
 }
 
-.infopage p{
-    margin: 0px 20px; 
-    width: 700px;
-}
+
 .infopage button{
  display: flex;
  align-items: center;
  justify-content: center;
- margin: 20px 100px;
+flex-direction: row;
+margin:2% 10%;
  background-color: rgba(0, 0, 0, 0.904);
  color: white;
- font-size: 18px;
- width: 460px;
+ font-size: 16px;
+ width: 50%;
 height: 70px;
 border: none;
 
 }
-
 
 
 .infopage a{
@@ -645,6 +643,14 @@ margin: 10px;
 
 
 @media  (max-width: 800px) {
+
+
+  footer{
+    font-size: 11px;
+  height: 100px;
+    
+    
+    }
 
   .bairros{
     display: flex;
