@@ -6,8 +6,13 @@
 
 
 #destaque h2{
-  font-size: 25px;
-  margin: 50px;
+  font-size: 20px;
+margin-top: 4%;
+margin-bottom: 1%;
+display: flex;
+
+justify-content: center;
+
 
 }
 
@@ -133,12 +138,13 @@ flex-direction: row;
 
 .conte{
 
-display: flex;
+display:flex;
 justify-content: center;
 flex-direction: row;
 flex-wrap: wrap;
 max-width:90%;
 margin-left: 5%;
+height: auto;
 
 
     
@@ -148,13 +154,15 @@ margin-left: 5%;
 
 
 .imoveis{
- margin: 10px;
+  
+ margin: 0.5%;
 width:20%;
 height: auto;
-
-border: solid 1px rgba(128, 128, 128, 0.144);
+box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.068);
+border: solid 1px rgba(128, 128, 128, 0.123);
 display: flex;
 flex-direction: column;
+
 
 }
 
@@ -164,10 +172,11 @@ flex-direction: column;
 
 
 .imoveis img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    
+
+height: auto;
+    height: 230px;
+    object-fit:cover;
+
 
     
 }
@@ -199,13 +208,17 @@ margin-left: 2%;
   width: 30%;
 }
 h2{
-  font-weight: normal;
+display: flex;
+
+justify-content: left;
+height: 35px;
+
     font-size: 18px;
-  height: 30px;
-  text-align: center;
-  margin: 10px 10px;
+    margin-left: 2%;
 
 
+
+margin-bottom: 0px;
 
 }
 
@@ -213,7 +226,9 @@ h3{
  
  font-weight:600;
 
-  font-size: 26px;
+  font-size: 25px;
+height: 5%;
+    margin-left: 5%;
 
 
  
@@ -392,10 +407,7 @@ margin-left: 20px;
 
 
 
-h3{
-margin-left: 2%;
 
-}
 
 iframe{
 width: 700px;
@@ -494,15 +506,16 @@ width: 230px;
 
 .slider{
 margin-top: 5%;
-width: 100%;
-object-fit: cover;
+max-width:100%;
+object-fit: contain;
 justify-content: center;
 align-items: center;
 display: flex;
-height: 600px;
+height: 620px;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+
 
 
 
@@ -512,7 +525,7 @@ flex-direction: column;
 .slider img{
   width: 100%;
   height: 620px;
-  object-fit: cover;
+  object-fit:cover;
 }
 .mySlides{
 
@@ -732,14 +745,15 @@ margin: 0px;
 
  .slider{
   max-width: 100%;
-  height: 100%;
+  height: auto;
   margin-top: 15%;
  }
 
  .slider img{
 
   max-width: 100%;
-  height: 100%;
+  height:auto;
+ 
  }
 .infopage{
   display: flex;
@@ -888,14 +902,13 @@ margin-top: 10%;
     align-items: center;
     justify-content: center;
     font-size: 30px;
-width: 5%;
-height:5% ;
+    width: 5%;
+    height:5% ;
     background-color:rgba(255, 255, 255, 0.007);
     color:black;
-
     border: none;
-   border-radius: 15%;
- margin:0% 3%;
+    border-radius: 15%;
+    margin:0% 3%;
   }
   
   .openbtn:hover {
@@ -919,7 +932,7 @@ height:5% ;
 
   }
   
-  h2{margin-top: 15%;}
+  h2{margin-top: 3%; text-align: left;}
 
   .continfo{
     display: inline;
