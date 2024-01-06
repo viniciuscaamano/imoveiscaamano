@@ -642,7 +642,7 @@ margin: 10px;
 
 }
 .sidebar{display: none;max-width: 100%;}
-#main{display: none;max-width: 100%}
+#main{display: none;}
 
 
 
@@ -895,7 +895,7 @@ height:5% ;
 
     border: none;
    border-radius: 15%;
- margin:0% 5%;
+ margin:0% 3%;
   }
   
   .openbtn:hover {
