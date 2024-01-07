@@ -1,5 +1,10 @@
 *{font-weight:500; font-family: arial;box-sizing: border-box;}
+body{margin: 0px; padding: 0px;}
 
+
+.pg{
+  margin-top: 7%;
+}
 
 .titulopagina{
 text-align: center;
@@ -86,13 +91,17 @@ left: 31%;
 .show {display: block;}
 
 .menupc{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width:100%;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0);
-    margin-top: 2%;
+width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+
+    left: 100px;
+    background-color: white;
+
+
+
+
 
 
 
@@ -101,42 +110,37 @@ left: 31%;
 .menu img{
 
   object-fit: cover;
-  width: 240px;
+  width: 200px;
+
+
 
 }
 
 .menu{  
+height: 50px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-flex-direction: row;
-    background-color: white;
+display: flex;
+justify-content: center;
    
 
 }
 
 .menu ul{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: row;
 }
 
 
 .menu  li{
-    padding: 40px;
+    padding: 35px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+align-items: center;
     flex-direction: row;
 }
 
-.menu  a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+.menu  a{   
     text-decoration: none;
     color: black;
     font-size: 16px;
@@ -162,7 +166,7 @@ height: auto;
 .imoveis{
   
  margin: 0.5%;
-width:20%;
+width:320px;
 height: auto;
 box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.068);
 border: solid 1px rgba(128, 128, 128, 0.123);
@@ -343,7 +347,7 @@ h6{
 h1{
   font-family: 'Dancing Script', cursive;
 font-size: 40px;
-width: 100%;
+
 
 
 }
@@ -511,16 +515,13 @@ width: 230px;
 }
 
 .slider{
-margin-top: 5%;
-max-width:100%;
-object-fit: contain;
-justify-content: center;
-align-items: center;
+margin-top: 7%;
+max-width: 100%;
+height: auto;
 display: flex;
-height: 620px;
-align-items: center;
 justify-content: center;
-flex-direction: column;
+align-items: center;
+
 
 
 
@@ -529,8 +530,9 @@ flex-direction: column;
 }
 
 .slider img{
-  width: 100%;
-  height: 620px;
+padding: 1% 14%;
+
+height: auto;
   object-fit:cover;
 }
 .mySlides{
@@ -752,11 +754,12 @@ margin: 0px;
  .slider{
   max-width: 100%;
   height: auto;
-  margin-top: 15%;
+
+
  }
 
  .slider img{
-
+  padding: 2%;
   max-width: 100%;
   height:auto;
  
@@ -922,14 +925,15 @@ margin-top: 10%;
      display: flex;
     justify-content: left;
     align-items: center;
+    flex-direction: row;
     transition: margin-left .5s;
     position: fixed;
     top: 0;
     left: 0;
-
     background-color: white;
     width: 100%;
     height: 100px;
+    border: solid 1px rgba(128, 128, 128, 0.034);
 
 
 
