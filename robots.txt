@@ -9,8 +9,10 @@ Allow: /vilaisabel
 Allow: /grajau
 Allow: /copacabana
 Allow: /botafogo
+Allow: /01
 Allow: /02
 Allow: /03
+Allow: /04
 Allow: /05
 Allow: /06
 Allow: /07
