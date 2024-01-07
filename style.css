@@ -1,5 +1,5 @@
 *{font-weight:500; font-family: arial;box-sizing: border-box;}
-body{margin: 0px; padding: 0px;}
+body{margin: 0px; padding: 0px; background-color: white;}
 
 
 .pg{
@@ -117,7 +117,7 @@ width: 100%;
 }
 
 .menu{  
-height: 50px;
+height: 10px;
 
 display: flex;
 justify-content: center;
@@ -347,6 +347,7 @@ h6{
 h1{
   font-family: 'Dancing Script', cursive;
 font-size: 40px;
+width: 100%;
 
 
 
@@ -515,7 +516,7 @@ width: 230px;
 }
 
 .slider{
-margin-top: 7%;
+margin-top: 100px;
 max-width: 100%;
 height: auto;
 display: flex;
