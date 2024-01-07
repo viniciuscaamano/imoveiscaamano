@@ -10,7 +10,8 @@ text-align: center;
 }
 
 
-#destaque h2{
+#destaque h1{
+  font-family: arial;
   font-size: 20px;
 margin-top: 4%;
 margin-bottom: 1%;
