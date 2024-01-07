@@ -1,5 +1,5 @@
 *{font-weight:500; font-family: arial;box-sizing: border-box;}
-body{margin: 0px; padding: 0px; background-color: white;max-width: 100%;}
+body{ background-color: white;max-width: 100%;}
 
 
 .pg{
@@ -91,7 +91,7 @@ left: 31%;
 .show {display: block;}
 
 .menupc{
-width: 100%;
+width: 83%;
     height: 100px;
     position: fixed;
     top: 0;
