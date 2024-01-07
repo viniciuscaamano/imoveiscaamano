@@ -148,10 +148,10 @@ align-items: center;
 .conte{
 
 display:flex;
-justify-content: center;
+justify-content: left;
 flex-direction: row;
 flex-wrap: wrap;
-max-width:90%;
+max-width:100%;
 margin-left: 5%;
 height: auto;
 
@@ -826,7 +826,7 @@ margin-left: 0px;
 
 .imoveis{
   box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
-margin-left: 10%;
+
 
 width: 90%;
 height: auto;
