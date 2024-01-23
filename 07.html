@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imóveis Caamaño - código 07</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <ul>
+                <li><img src="logo.png" alt="logo imóveis caamaño"></li>
+                <a href="index.html"><li>INICIO</li></a>
+                <a href="venda.html"> <li>VENDA</li></a>
+                <a href="aluguel.html"> <li>ALUGUEL</li></a>
+                <a href="cadastre.html"><li>CADASTRE SEU IMÓVEL</li></a>
+                <a href="mailto:vaniacaamano@gmail.com?subject=Imóveis caamaño &&bcc=viniciuscaamano@icloud.com&body=Gostaria de mais informações"> <li>CONTATO</li></a>
+            </ul>
+        </nav>
+         <!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="#index" class="active"><img src="logo.png" alt="logo"></a>
+
+    <div id="myLinks">
+      <a href="index.html">INICIO</a>
+      <a href="venda.html">VENDA</a>
+      <a href="aluguel.html">ALUGUEL</a>
+      <a href="cadastre.html">CADASTRE SEU IMÓVEL</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">≡
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  
+  
+  <!-- End smartphone / tablet look -->
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+    </header>
+<main class="info">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 22</div>
+          <img src="vania07/4147591533.jpg" style="width:100%">
+  
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 22</div>
+          <img src="vania07/4147591534.jpg"width:100%">
+ 
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 22</div>
+          <img src="vania07/4147591535.jpg" style="width:100%">
+
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 22</div>
+            <img src="vania07/4147591537.jpg" style="width:100%">
+  
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 22</div>
+            <img src="vania07/4147591539.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 22</div>
+            <img src="vania07/4147591543.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 22</div>
+            <img src="vania07/4147591544.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 22</div>
+            <img src="vania07/4147591545.jpg" style="width:100%">
+  
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 22</div>
+            <img src="vania07/4147591546.jpg" style="width:100%">
+  
+          </div>
+
+          
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+     
+        
+        
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+        <div class="continfo">
+            <h1>Apartamento para venda em Copacabana</h1>
+            <h2>R$ 500.000</h2>
+            <p>Excelente localização, prédio colado no metrô General Osório. Sala quarto com mais um que pode ser reverso. Pronto para modernizar. Gostaria de conhecer?</p>
+            <p>Condomínio R$ 1.000 IPTU R$ 100</p>
+            <p>Quartos: 1 Banheiros: 2 Vaga: 0 55m²</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7346.317127396195!2d-43.192538!3d-22.981196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd53e6bb3b529%3A0xe29cf94cfdece7a4!2sR.%20S%C3%A1%20Ferreira%20-%20Copacabana%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1706020540985!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="mailto:vaniacaamano@gmail.com?subject=Imóveis caamaño visita&&bcc=viniciuscaamano@icloud.com&body=Gostaria de marcar uma visita. Código do imóvel : 07"> <button>Marcar visita</button></a>
+       <p>código do imóvel: 07</p>
+        </div>
+        
+</main>
+
+<footer>
+    <div class="footerp">
+    <p>Atendimento de segunda à domingo 09:00 às 19:00</p>
+    <p>Telefone:(21)9 76276013</p>   
+
+    <p>email: vaniacaamano@gmail.com</p>
+    <p>intagram:@imoveiscaamano</p>
+</div>
+    imoveiscaamano @ todos os direitos reservados
+</footer>
+</body>
+
+</html>

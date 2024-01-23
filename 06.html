@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imóveis Caamaño - código 06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <ul>
+                <li><img src="logo.png" alt="logo imóveis caamaño"></li>
+                <a href="index.html"><li>INICIO</li></a>
+                <a href="venda.html"> <li>VENDA</li></a>
+                <a href="aluguel.html"> <li>ALUGUEL</li></a>             
+                <a href="cadastre.html"><li>CADASTRE SEU IMÓVEL</li></a>
+                <a href="mailto:vaniacaamano@gmail.com?subject=Imóveis caamaño &&bcc=viniciuscaamano@icloud.com&body=Gostaria de mais informações"> <li>CONTATO</li></a>
+            </ul>
+        </nav>
+         <!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="#index" class="active"><img src="logo.png" alt="logo"></a>
+
+    <div id="myLinks">
+      <a href="index.html">INICIO</a>
+      <a href="venda.html">VENDA</a>
+      <a href="aluguel.html">ALUGUEL</a>
+      <a href="cadastre.html">CADASTRE SEU IMÓVEL</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">≡
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  
+  
+  <!-- End smartphone / tablet look -->
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+    </header>
+<main class="info">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 22</div>
+          <img src="vania06/4154306247.jpg" style="width:100%">
+  
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 22</div>
+          <img src="vania06/4154306249.jpg"width:100%">
+ 
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 22</div>
+          <img src="vania06/4154306250.jpg" style="width:100%">
+
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 22</div>
+            <img src="vania06/4154306251.jpg" style="width:100%">
+  
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 22</div>
+            <img src="vania06/4154306252.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 22</div>
+            <img src="vania06/4154306255.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 22</div>
+            <img src="vania06/4154306256.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 22</div>
+            <img src="vania06/4154306257.jpg" style="width:100%">
+  
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 22</div>
+            <img src="vania06/4154306259.jpg" style="width:100%">
+  
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">10 / 22</div>
+            <img src="vania06/4154306261.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">11 / 22</div>
+            <img src="vania06/4154306262.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">12 / 22</div>
+            <img src="vania06/4154306263.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">13 / 22</div>
+            <img src="vania06/4154306265.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">14 / 22</div>
+            <img src="vania06/4154306269.jpg" style="width:100%">
+  
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">15 / 22</div>
+            <img src="vania06/4154306272.jpg" style="width:100%">
+  
+          </div>
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+     
+        
+        
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+        <div class="continfo">
+            <h1>Apartamento para venda na Tijuca</h1>
+            <h2>R$ 785.000</h2>
+            <p>PERTINHO DA PRAÇA AFONSO PENA! Salão com 3 quartos, uma suíte com closet, banheiro social, lavabo, cozinha com área e dependência completa. 2 VAGAS DE GARAGEM! Excelente apto com planta circular, 1 por andar, 125m² toda parte elétrica e hidráulica foi reformada. Gostaria de fazer uma proposta?</p>
+            <p>Condomínio R$ 1.300 IPTU R$ 250</p>
+            <p>Quartos: 3 Banheiros: 3 Vaga: 2 125m²</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29398.38125122719!2d-43.225801!3d-22.920833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e44e29dba65%3A0x5772b57d88918a00!2sAv.%20Heitor%20Beltr%C3%A3o%20-%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020550-000!5e0!3m2!1spt-BR!2sbr!4v1706019470719!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="mailto:vaniacaamano@gmail.com?subject=Imóveis caamaño visita&&bcc=viniciuscaamano@icloud.com&body=Gostaria de marcar uma visita. Código do imóvel : 06"> <button>Marcar visita</button></a>
+       <p>código do imóvel: 06</p>
+        </div>
+        
+</main>
+
+<footer>
+  <div class="footerp">
+  <p>Atendimento de segunda à domingo 09:00 às 19:00</p>
+  <p>Telefone:(21)9 76276013</p>   
+
+  <p>email: vaniacaamano@gmail.com</p>
+  <p>intagram:@imoveiscaamano</p>
+</div>
+  imoveiscaamano @ todos os direitos reservados
+</footer>
+</body>
+
+</html>
