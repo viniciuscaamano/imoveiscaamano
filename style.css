@@ -225,11 +225,12 @@ padding-bottom: 50px;
 }
 
 .cadastre{
+  width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 460px;
+    height: auto;
 }
 .cadastre button {
     width: 350px;
@@ -385,6 +386,15 @@ width: 95%;
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
-  }
+      .cadastre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+  
+    }
 
   
