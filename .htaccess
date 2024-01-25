@@ -1,0 +1,10 @@
+Redirect 301 "/index.html" " https://imoveiscaamano.com.br/"
+
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+RewriteCond %{https} off
+RewriteRule ^(.*)$ https://www.yourdomain.com/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
