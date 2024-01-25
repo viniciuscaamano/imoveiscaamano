@@ -52,7 +52,7 @@ main{
 }
 .contimoveis{
     width: 300px;
-    height: 480px;
+    height: auto;
     box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.459);
     padding: 10px;
     margin: 1%;
@@ -166,6 +166,7 @@ object-fit: cover;
 
  .info{
 width: 100%;
+height: auto;
 }
 
 .continfo{
@@ -195,7 +196,7 @@ flex-direction: column;
 footer{
     margin-top: 100px;
     width: 100%;
-    height:200px;
+    height:auto;
     background-color: black;
     color: white;
     display: flex;
@@ -220,12 +221,33 @@ padding-bottom: 50px;
     align-items: center;
 }
 
+footer img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+
+.wahtssapp{
+  position: fixed;
+  top: 80%;
+  left: 90%;
+}
+
+.wahtssapp img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
 .aluguel {
     height: 460px;
 }
 
 .cadastre{
   width: 100%;
+  height: auto;
+  margin-bottom: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -314,7 +336,7 @@ nav{display: none;}
   footer{
 
     width: 100%;
-    height:200px;
+    height:auto;
     background-color: black;
     color: white;
     display: flex;
@@ -396,6 +418,20 @@ width: 95%;
         width: 100%;
     }
   
+
+    .wahtssapp{
+      position: fixed;
+      top: 85%;
+      left: 70%;
+    }
+    
+    .wahtssapp img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+
     }
 
   
