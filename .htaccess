@@ -1,4 +1,4 @@
-Redirect 301 "/index.html" " https://imoveiscaamano.com.br/"
+Redirect 301 "https://imoveiscaamano.com.br/index.html" " https://imoveiscaamano.com.br/"
 
 RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
 RewriteCond %{https} off
