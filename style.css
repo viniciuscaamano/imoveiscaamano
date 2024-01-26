@@ -170,8 +170,10 @@ object-fit: cover;
 }
 
  .info{
-width: 100%;
+width:100%;
 height: auto;
+
+
 }
 
 .continfo{
@@ -179,6 +181,7 @@ width: 50%;
 display: flex;
 justify-content: center;
 flex-direction: column;
+
 
 
 }
@@ -243,7 +246,7 @@ footer img{
 }
 
 .wahtssapp img{
-  width: 250px;
+  width: 200px;
  
   object-fit: cover;
 
@@ -288,7 +291,7 @@ main{
 section img{
 
     width: 100%;
-    height: 200px;
+    height: 100%;
     object-fit:cover;
 
 }
@@ -438,7 +441,7 @@ width: 95%;
     }
     
     .wahtssapp img{
-      width: 250px;
+      width: 150px;
 
       object-fit: cover;
     }
