@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /https://www.imoveiscaamano.com.br/
+Allow: /https://www.imoveiscaamano.com.br/venda
+Allow: /https://www.imoveiscaamano.com.br/aluguel
+Allow: /https://www.imoveiscaamano.com.br/cadastre
+Allow: /https://www.imoveiscaamano.com.br/05
+Allow: /https://www.imoveiscaamano.com.br/06
+Allow: /https://www.imoveiscaamano.com.br/07
+Allow: /https://www.imoveiscaamano.com.br/11
+Allow: /https://www.imoveiscaamano.com.br/12
+Allow: /https://www.imoveiscaamano.com.br/13
+Allow: /https://www.imoveiscaamano.com.br/14
+
+Sitemap: https://www.imoveiscaamano.com.br/sitemap.txt
