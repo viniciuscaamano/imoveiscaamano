@@ -11,5 +11,6 @@ Allow: /https://www.imoveiscaamano.com.br/12
 Allow: /https://www.imoveiscaamano.com.br/13
 Allow: /https://www.imoveiscaamano.com.br/14
 Allow: /https://www.imoveiscaamano.com.br/15
+Allow: /https://www.imoveiscaamano.com.br/16
 
 Sitemap: https://www.imoveiscaamano.com.br/sitemap.txt
