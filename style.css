@@ -177,6 +177,8 @@ height: auto;
 
 }
 
+
+
 .continfo{
 width: 50%;
 display: flex;
@@ -282,11 +284,13 @@ footer img{
 
 .mobile-container {display: none;}
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .mobile-container {display: block;}
 main{
     display: flex;
     flex-direction: column;
+    width: 100%;
+   
 }
 
 section img{
