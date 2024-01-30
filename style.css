@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 header{
-    width: 100%;
+  
     height: auto;
 
 }
@@ -46,7 +46,7 @@ width: 100%;
 }
 
 main{
-    width: 100%;
+   
     height: auto;
     display: flex;
     justify-content: center;
@@ -58,16 +58,30 @@ main{
 .contimoveis{
     width: 300px;
     height: auto;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-
-    padding: 10px;
-    margin: 1%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+background-color: rgba(216, 248, 236, 0.075);
+ 
+    margin: 0.5%;
 }
 .contimoveis img{
-    width: 300px;
+    width: 100%;
     height: 220px;
     
 object-fit: cover;
+}
+
+h2{
+  width: 100%;
+  padding: 0px 10px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+h3{
+  padding: 0px 10px;
+  font-size: 27px;
+  font-weight: 900;
+  
 }
 
 .cabe{
@@ -77,14 +91,22 @@ object-fit: cover;
 }
 
 .contimoveis button{
-  width: 300px;
-  height: 45px;
-  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 50px;
+  background-color: black;
   color: white;
+  font-weight: 600;
   border: 0px;
   cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+ 
 }
 
+.contimoveis p {
+  padding: 0px 10px;
+}
 .mySlides {display: none}
 
 
@@ -171,7 +193,7 @@ object-fit: cover;
 }
 
  .info{
-width:100%;
+
 height: auto;
 
 
@@ -180,7 +202,7 @@ height: auto;
 
 
 .continfo{
-width: 50%;
+width: 45%;
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -190,7 +212,9 @@ flex-direction: column;
 }
 
 .continfo p{
-    width: 90%;
+    width: 70%;
+    font-size: 17px;
+    
 
 }
 
@@ -206,7 +230,7 @@ flex-direction: column;
 
 footer{
     margin-top: 100px;
-    width: 100%;
+ 
     height:auto;
     background-color: black;
     color: white;
@@ -263,7 +287,7 @@ footer img{
 }
 
 .cadastre{
-  width: 100%;
+
   height: auto;
   margin-bottom: 7%;
     display: flex;
@@ -289,10 +313,12 @@ footer img{
 main{
     display: flex;
     flex-direction: column;
-    width: 100%;
+
    
 }
-
+.contimoveis{
+  margin: 3% 0px;
+}
 section img{
 
     width: 100%;
@@ -451,7 +477,10 @@ width: 95%;
       object-fit: cover;
     }
    
-
+    .continfo p{
+      width: 98%;
+  
+  }
     }
 
   
