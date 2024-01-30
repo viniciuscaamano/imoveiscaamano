@@ -90,7 +90,7 @@ background-color:#ffd900ea;
 box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 1px;
   padding: 4px ;
   margin: 0px ;
-  width: 155px;
+  width: 200px;
   font-size: 27px;
   font-weight: 700;
   color: black;
@@ -473,7 +473,7 @@ width: 95%;
     .prev, .next {
         cursor: pointer;
         position: absolute;
-        top: 30%;
+        top: 250px;
         width: auto;
      
      
