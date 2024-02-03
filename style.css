@@ -275,7 +275,10 @@ max-width: 100%;
   
 
 }
-
+footer a{
+  text-decoration: none;
+  color: white;
+}
 footer p {
     font-size: 14px;
     margin-left: 50px;
@@ -470,7 +473,7 @@ nav{display: none;}
     position: relative;
   }
   
-  .topnav #myLinks {
+  .topnav #Links {
     display: none;
   }
   
