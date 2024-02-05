@@ -639,14 +639,7 @@ width: 95%;
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
-      .cadastre{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-   text-align: center;
-       
-    }
+
   
 
     .wahtssapp{
@@ -746,13 +739,12 @@ font-weight: bold;
 }
 
 .cadastre{
-  margin-left: 0px;
-      display: flex;
-      flex-direction: column;
-  width: 100%;
+margin: 0px;
   
-      text-align: left;
-      height: 600px;
+ 
+
+
+
   
   }
 
@@ -761,7 +753,7 @@ font-weight: bold;
   }
   
   .cadastre h2{
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .cadastre button{
