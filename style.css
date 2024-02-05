@@ -481,7 +481,7 @@ main{
     flex-direction: column; 
     text-align: left;
     align-items: center;
-   
+
 
    
 }
@@ -501,10 +501,7 @@ main{
  margin-left: 10px;
  font-size: 25px;
 }
-.contimoveis{
-  margin-top: 25px;
- 
-}
+
 section img{
 
     width: 100%;
@@ -735,7 +732,7 @@ font-size: 15px;
 
 }
 
-.colum h2{
+.colum h250px2{
   padding: 0px;
   margin: 0px;
 font-weight: bold;
@@ -752,7 +749,7 @@ font-weight: bold;
   margin-left: 0px;
       display: flex;
       flex-direction: column;
-  width: 90%;
+  width: 100%;
   
       text-align: left;
       height: 600px;
@@ -767,6 +764,9 @@ font-weight: bold;
     font-size: 35px;
   }
 
+  .cadastre button{
+  width: 250px;
+  }
     }
 
   
