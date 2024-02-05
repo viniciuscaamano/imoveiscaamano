@@ -1,7 +1,7 @@
 body{
-    margin: 0px; 
-    font-family: arial;
-    font-size: 15px;
+margin: 0;
+    font-family: "Times New Roman", Times, serif;
+
     
 }
 header{
@@ -95,14 +95,15 @@ position: relative;
 top: -18px;
 left: -8px;
 border-radius: 3px;
-background-color:#000000;
+background-color:#FFD700
+;
 box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 1px;
   padding: 4px ;
   margin: 0px ;
   width: 200px;
   font-size: 25px;
  
-  color:white;
+  color:black;
   opacity: 0.9;
   
 }
@@ -119,9 +120,10 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 1px;
 }
 
 .contimoveis button{
-  width: 300px;
+  width: 280px;
   height: 50px;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
+ margin: 10px;
   color: white;
 
   border: 0px;
