@@ -659,11 +659,14 @@ width: 95%;
   
   }
 .continfo h1{
-  width: 100%;
-  text-align: center;
+width: 100%;
+height: 80px;
+
+  font-size: 25px;
 }
  .continfo h2 {
 width: 100%;
+height: 20px;
   padding: 0px 0px;
 
     font-size: 25px;
@@ -698,7 +701,7 @@ font-size: 15px;
 
 .contcolum img{
   max-width: 150px;
- height: 150px;
+
 
 }
 
@@ -726,15 +729,16 @@ font-size: 15px;
 }
 
 .colum h2{
+
   padding: 0px;
-  margin: 10px 0px;
+ height: 70px;
 font-weight: bold;
   font-size: 18px;
   }
 .colum p{
 
   font-size: 15px;
-  padding: 0px;
+  padding: 5px 0px;
   margin: 0px;
 }
 
