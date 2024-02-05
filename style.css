@@ -64,7 +64,7 @@ main{
 }
 .contimoveis{
     width: 300px;
-    height: auto;
+    height: 460px;
     box-shadow: rgba(128, 128, 128, 0.137) 0px 0px 5px 1px ;
 background-color: white;
 padding: 0px;
@@ -81,6 +81,9 @@ padding: 0px;
 
 h2{
 padding: 0px 10px;
+padding-bottom: 15px;
+
+height: 40px;
 margin: 0px ;
   font-size: 22px;
   font-weight: normal;
@@ -89,12 +92,12 @@ margin: 0px ;
 h3{
 
 position: relative;
-top: -18px;
-left: -8px;
+top: -25px;
+left: -12px;
 border-radius: 3px;
 background-color:#FFD700
 ;
-box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 1px;
+box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
   padding: 4px ;
   margin: 0px ;
   width: 200px;
