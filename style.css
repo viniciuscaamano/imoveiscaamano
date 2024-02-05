@@ -68,7 +68,7 @@ main{
 .contimoveis{
     width: 300px;
     height: auto;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    box-shadow: rgba(128, 128, 128, 0.137) 0px 0px 5px 1px ;
 background-color: white;
 padding: 0px;
 
