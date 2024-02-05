@@ -328,11 +328,13 @@ footer img{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 500px;
+
+    align-items: center;
+    text-align: left;
+    height: 600px;
 
 }
+
 .cadastre button {
     width: 350px;
     height: 50px;
