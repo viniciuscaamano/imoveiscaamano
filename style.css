@@ -95,7 +95,7 @@ position: relative;
 top: -25px;
 left: -12px;
 border-radius: 3px;
-background-color:#FFD700
+background-color:#000000
 ;
 box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
   padding: 4px ;
@@ -103,7 +103,7 @@ box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
   width: 200px;
   font-size: 25px;
  
-  color:black;
+  color:white;
   opacity: 0.9;
   
 }
