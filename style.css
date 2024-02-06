@@ -314,7 +314,7 @@ footer img{
 }
 
 .wahtssapp img{
-  width: 200px;
+  width: 100px;
  
 
 
@@ -441,7 +441,7 @@ align-items: center;
 .contcolum{
   margin: 10px 0px;
   width: 1000px;
-  height: 300px;
+  height: 250px;
 
   display: flex;
   flex-direction: row;
@@ -450,11 +450,12 @@ align-items: center;
 
 .contcolum img{
   width: 350px;
+  
 }
 
 .colum{
   font-size: 20px;
-  padding: 70px;
+ margin: 0px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -462,6 +463,27 @@ align-items: center;
 }
 
 .colum h5{
+  font-size: 25px;
+  padding: 5px;
+  margin: 0px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+
+.colum h2{
+  font-size: 25px;
+  padding: 0px 0px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+
+
+.colum p{
+
+  padding: 0px ;
+  margin: 0px;
   font-size: 20px;
 }
 .contcolum a{
@@ -644,12 +666,12 @@ width: 95%;
 
     .wahtssapp{
       position: fixed;
-      bottom: 50px;
+      bottom: 0px;
       right: 0;
     }
     
     .wahtssapp img{
-      width: 150px;
+      width: 100px;
 
     }
    
@@ -706,9 +728,8 @@ font-size: 15px;
 }
 
 .colum{
-
   font-size: 20px;
-  padding: 10px;
+ margin: 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -728,20 +749,38 @@ font-size: 15px;
 
 }
 
-.colum h2{
 
-  padding: 0px;
- height: 70px;
-font-weight: bold;
-  font-size: 18px;
-  }
-.colum p{
 
+
+.colum h5{
   font-size: 15px;
-  padding: 5px 0px;
+  padding: 5px;
   margin: 0px;
+  font-weight: normal;
+  margin-bottom: 0px;
 }
 
+
+.colum h2{
+  font-size: 15px;
+  padding: 0px 0px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+
+
+.colum p{
+
+  padding: 0px ;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.contcolum img{
+  width: 350px;
+  height: 110px;
+}
 .cadastre{
 margin: 0px;
   
