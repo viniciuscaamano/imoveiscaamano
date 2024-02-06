@@ -13,6 +13,11 @@ header{
 }
 nav{
   max-width: 100%;
+  display: flex;
+  text-align: center;
+      align-items: center;
+      justify-content: center;
+
 }
 
 nav ul{
@@ -27,13 +32,13 @@ text-align: center;
 
 }
 nav ul li {
-padding-right: 90px;
+padding-right: 75px;
 
 list-style: none;
 }
 nav  a {
     text-decoration: none;
-  
+
 color: black;
     }
 
