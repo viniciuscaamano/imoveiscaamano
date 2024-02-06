@@ -38,7 +38,7 @@ color: black;
     }
 
 nav img{
-    width: 60px;
+  max-width: 60px;
     margin: 0px;
     padding: 0px;
  
@@ -46,7 +46,7 @@ nav img{
 
 
 section img{
-width: 100%;
+  max-width: 100%;
 
 
 
@@ -64,7 +64,7 @@ main{
 
 }
 .contimoveis{
-    width: 300px;
+  max-width: 300px;
     height: 460px;
     box-shadow: rgba(128, 128, 128, 0.137) 0px 0px 5px 1px ;
 background-color: white;
@@ -74,7 +74,7 @@ padding: 0px;
     margin: 15px;
 }
 .contimoveis img{
-    width: 100%;
+width: 100%;
     height: 220px;
 
 
@@ -101,7 +101,7 @@ background-color:#000000
 box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
   padding: 4px ;
   margin: 0px ;
-  width: 200px;
+  max-width: 200px;
   font-size: 25px;
  
   color:white;
@@ -123,7 +123,7 @@ box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
 
 .contimoveis button{
   width: 280px;
-  height: 50px;
+  height: 55px;
   background-color: #000000;
  margin: 10px;
   color: white;
@@ -149,10 +149,13 @@ box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
 
 /* Slideshow container */
 .slideshow-container {
-  width: 850px;
-  height: 850px;
+  width: 50%;
+
   position: relative;
-  margin: auto;
+  margin: 0px ;
+  padding: 0px  ;
+
+
 }
 .slideshow-container img{
     width: 850px;
@@ -230,8 +233,10 @@ box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
 }
 
  .info{
+display: flex;
+justify-content: space-evenly;
 
-height: auto;
+margin-top: 50px;
 
 
 }
@@ -239,7 +244,7 @@ height: auto;
 
 
 .continfo{
-width: 45%;
+width: 35%;
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -250,16 +255,17 @@ flex-direction: column;
 }
 
 .continfo p{
-    width: 70%;
+
     font-size: 17px;
-    
+    margin: 0px 0px;
+    padding: 15px 0px;
 
 }
 
 .continfo button{
  margin-top: 20px;
     width: 600px;
-    height: 50px;
+    height: 60px;
     border: 0px;
     color: white;
     background-color: black;
@@ -268,8 +274,8 @@ flex-direction: column;
 
 footer{
  
-width: 100%;
- margin-top: 50px;
+  max-width: 100%;
+
 
     background-color: rgb(0, 0, 0);
     color: white;
@@ -299,8 +305,8 @@ padding-bottom: 50px;
 }
 
 footer img{
-  width: 30px;
-  height: 30px;
+ width: 35px;
+  height: 35px;
 
 }
 
@@ -315,7 +321,7 @@ footer img{
 }
 
 .wahtssapp img{
-  width: 100px;
+  max-width: 100px;
  
 
 
@@ -332,10 +338,11 @@ footer img{
 margin-left: 42%;
     display: flex;
     flex-direction: column;
-
+max-width: 100%;
+height:630px;
 
     text-align: left;
-    height: 600px;
+   
 
 }
 .cadastre p{
@@ -358,18 +365,13 @@ margin-left: 42%;
 
 .mobile-container {display: none;}
 
-.continfo h3{
-  text-decoration: line-through;
-  background-color: white;
-margin-top: 20px;
-padding: 0px;
-  box-shadow: none;
-  font-size: 25px;
 
-
-}
 .continfo h2{
-  margin-top: 0px;
+  margin: 0px;
+  padding: 20px 0px;
+}
+.continfo h1{
+  margin:  0px;
   padding: 0px;
 }
 .dropbtn {
@@ -516,12 +518,9 @@ main{
   align-items: center;
 
 }
-.continfo h3{
-  width: 100%;
-}
+
 .cabe h1 {
- width: 90%;
- margin-left: 10px;
+  padding: 0px 5px;
  font-size: 25px;
 }
 
@@ -586,8 +585,8 @@ nav{display: none;}
   }
 
   footer{
-
-    height:auto;
+width: 100%;
+ 
     background-color: black;
     color: white;
     display: flex;
@@ -678,18 +677,22 @@ width: 95%;
    
     .continfo p{
       width: 100%;
-      text-align: left;
+      padding: 15px;
+
+
   
   }
 .continfo h1{
-width: 100%;
+
 height: 80px;
+padding-top: 25px ;
+
 
   font-size: 25px;
 }
  .continfo h2 {
 width: 100%;
-height: 20px;
+
   padding: 0px 0px;
 
     font-size: 25px;
