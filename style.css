@@ -98,9 +98,9 @@ margin: 0px ;
 h3{
 
 position: relative;
-top: -25px;
-left: -12px;
-border-radius: 3px;
+top: -41px;
+left: 0px;
+
 background-color:#000000
 ;
 box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
@@ -110,7 +110,7 @@ box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
   font-size: 25px;
  
   color:white;
-  opacity: 0.9;
+  opacity: 0.8;
   
 }
 
