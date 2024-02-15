@@ -470,11 +470,11 @@ align-items: center;
 
 }
 .contcolum img {
-  width: 400px;
+  max-width: 300px;
   height: 250px;
 }
 .vva img{
-  width: 400px;
+ max-width: 300px;
   height: 250px;
 
   
