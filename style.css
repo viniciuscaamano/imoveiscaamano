@@ -104,7 +104,7 @@ position: relative;
 top: -41px;
 left: 0px;
 
-background-color:#000000;
+background-color:#ffd90057;
 ;
 box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
   padding: 4px ;
@@ -112,9 +112,10 @@ box-shadow: rgba(0, 0, 0, 0.05) -1px 4px 5px 1px;
   max-width: 200px;
   font-size: 25px;
  border-radius: 3px;
-  color:white;
-  opacity: 0.8;
-  font-weight: normal;
+  color:black;
+  font-weight:bold;
+
+
   
 }
 
