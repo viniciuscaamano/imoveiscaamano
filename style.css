@@ -469,9 +469,12 @@ align-items: center;
   box-shadow: rgba(128, 128, 128, 0.103) 0px 0px 10px 1px;
 
 }
-
+.contcolum img {
+  width: 400px;
+  height: 250px;
+}
 .vva img{
-  width: 300px;
+  width: 400px;
   height: 250px;
 
   
@@ -747,11 +750,7 @@ font-size: 15px;
   box-shadow: rgba(128, 128, 128, 0.103) 0px 0px 2px 2px;
 }
 
-.contcolum img{
-  max-width: 150px;
 
-
-}
 
 .colum{
   font-size: 20px;
