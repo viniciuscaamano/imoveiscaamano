@@ -810,6 +810,7 @@ font-size: 15px;
   display: flex;
   text-align: center;
   margin: 30px 0px;
+
   
   
   
@@ -820,13 +821,13 @@ font-size: 15px;
   }
 
   .cadastre p{
-    font-size: 16px;
+    font-size: 15px;
     margin: 0px ;
     padding: 30px 0px;
   }
   
   .cadastre h2{
-    font-size: 30px;
+    font-size: 25px;
   }
 
  
