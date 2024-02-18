@@ -16,7 +16,7 @@ height: auto;
 .prev2, .next2 {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 350px;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -88,7 +88,7 @@ height: auto;
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev2, .next2,.text {font-size: 11px}
 }
 
 body{
