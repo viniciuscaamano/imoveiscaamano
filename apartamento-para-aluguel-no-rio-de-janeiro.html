@@ -90,7 +90,17 @@ function myFunction() {
 <div class="cabe"><h1>Apartamentos e casas para aluguel no Rio de Janeiro</h1></div>
     <main class="aluguel">
 
-      <div class="contcolum">
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Todos</button>
+        <button class="btn" onclick="filterSelection('copacabana')"> Copacabana</button>
+        <button class="btn" onclick="filterSelection('botafogo')"> Botafogo</button>
+        <button class="btn" onclick="filterSelection('tijuca')"> Tijuca</button>
+        <button class="btn" onclick="filterSelection('vila')"> Vila isabel</button>
+        <button class="btn" onclick="filterSelection('grajau')"> Grajaú</button>
+      </div>
+
+
+      <div class="contcolum grajau">
         <a href="Apartamento-para-alugar-no-grajau-2-quartos-no-rio-de-janeiro-19.html"> 
     <img src="estefanie/4198541478.webp" alt="">
     
@@ -104,7 +114,7 @@ function myFunction() {
     </a>
        </div> 
    
-      <div class="contcolum">
+      <div class="contcolum tijuca">
         <a href="Apartamento-mobiliado-para-aluguel-na-Tijuca-3-quartos-18.html"> 
     <img src="alexandre/341450858774062.webp" alt="">
     
@@ -121,7 +131,50 @@ function myFunction() {
        
 
 
-
+       <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("contcolum");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
 
     </main>
 

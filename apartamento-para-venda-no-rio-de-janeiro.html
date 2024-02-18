@@ -93,11 +93,24 @@ function myFunction() {
 
 
 
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Todos</button>
+        <button class="btn" onclick="filterSelection('copacabana')"> Copacabana</button>
+        <button class="btn" onclick="filterSelection('botafogo')"> Botafogo</button>
+        <button class="btn" onclick="filterSelection('tijuca')"> Tijuca</button>
+        <button class="btn" onclick="filterSelection('vila')"> Vila isabel</button>
+        <button class="btn" onclick="filterSelection('grajau')"> Grajaú</button>
+      </div>
+      
+      
+      
+ 
 
 
 
 
-      <div class="contcolum">
+
+<div class="contcolum grajau">
     <a href="Apartamento-para-venda-no-Grajau-2-quartos-05.html"> 
 <img src="vania05/vara.jpg " alt="Apartamento-para-venda-no-Grajau-2-quartos-05" >
 
@@ -115,7 +128,7 @@ function myFunction() {
 
 
 
-   <div class="contcolum">
+   <div class="contcolum tijuca">
     <a href="Apartamento-para-venda-na-Tijuca-3-quartos-06.html"> 
 <img src="vania06/4154306252.jpg" alt="Apartamento-para-venda-na-Tijuca-3-quartos-06" >
 
@@ -131,8 +144,7 @@ function myFunction() {
 
 
 
-
-   <div class="contcolum">
+   <div class="contcolum copacabana">
     <a href="Apartamento-para-venda-em-Copacabana-1-quarto-07.html"> 
       <img src="vania07/4147591543.jpg" alt="Apartamento-para-venda-em-Copacabana-1-quarto-07" >
 
@@ -148,7 +160,7 @@ function myFunction() {
    </div>
 
 
-  <div class="contcolum">
+  <div class="contcolum tijuca">
    <a href="Apartamento-para-venda-em-tijuca-4-quartos-11.html"> 
      <img src="vania 11/4180484503.webp" alt="Apartamento-para-venda-em-tijuca-4-quartos-11" >
 
@@ -164,7 +176,7 @@ function myFunction() {
   </div>
 
 
-  <div class="contcolum">
+  <div class="contcolum vila">
     <a href="Apartamento-para-venda-em-Vila-Isabel-3-quartos-12.html"> 
       <img src="marcos vila isabel/238335411084482.webp" alt="Apartamento-para-venda-em-Vila-Isabel-3-quartos-12" >
  
@@ -180,7 +192,7 @@ function myFunction() {
    </div>
 
 
-  <div class="contcolum">
+  <div class="contcolum copacabana">
     <a href="Apartamento-para-venda-em-Copacabana-3-quartos-13.html"> 
       <img src="paulo copa/617313672734984 - Copia - Copia.webp" alt="Apartamento-para-venda-em-Copacabana-3-quartos-13" >
  
@@ -198,7 +210,7 @@ function myFunction() {
 
 
 
-   <div class="contcolum">
+   <div class="contcolum botafogo">
     <a href="Apartamento-para-venda-em-Botafogo-3-quartos-14.html"> 
       <img src="Marcelo botafogo/900384619749330.webp" alt="Apartamento-para-venda-em-Botafogo-3-quartos-14">
  
@@ -214,8 +226,8 @@ function myFunction() {
    </div>
 
 
-
-   <div class="contcolum">
+ 
+   <div class="contcolum copacabana">
     <a href="Apartamento-para-venda-em-Copacabana-3-quartos-15.html"> 
       <img src="andre e sandra/720302099247104.webp" alt="Apartamento-para-venda-em-Copacabana-3-quartos-15" >
  
@@ -231,8 +243,9 @@ function myFunction() {
    </div>
 
 
-
-   <div class="contcolum">
+   
+   <div class="contcolum copacabana">
+    
     <a href="Apartamento-para-venda-em-Copacabana-2-quartos-16.html"> 
       <img src="Anderson/288347822666974.jpeg" alt="Apartamento-para-venda-em-Copacabana-2-quartos-16" >
  
@@ -250,7 +263,7 @@ function myFunction() {
 
 
 
-   <div class="contcolum">
+   <div class="contcolum grajau">
     <a href="Casa-para-venda-no-Grajaú-4-quartos-17.html"> 
       <img src="vania17/612440483625395.webp" alt="Casa-para-venda-no-Grajaú-4-quartos-17" >
  
@@ -268,7 +281,50 @@ function myFunction() {
 
 
 
-
+   <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("contcolum");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
 
 
     </main>
