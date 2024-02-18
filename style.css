@@ -1014,7 +1014,7 @@ font-size: 15px;
 .prev2, .next2 {
   cursor: pointer;
   position: absolute;
-  top: 100px;
+  top: 35%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
