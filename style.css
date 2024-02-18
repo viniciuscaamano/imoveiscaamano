@@ -176,7 +176,7 @@ font-size: 20px;
 }
 .slideshow-container img{
     width: 850px;
-    height: 850px;
+    height: 950px;
 
 }
 /* Next & previous buttons */
@@ -293,7 +293,7 @@ footer{
  
   width: 100%;
 
-
+margin-top: 100px;
     background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
