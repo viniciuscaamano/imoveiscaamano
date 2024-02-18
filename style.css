@@ -3,16 +3,21 @@ font-weight: normal;
     font-family: helvetica;
     margin: 0;
     padding: 0;
+    background-color:rgba(245, 245, 245, 0.363);
+
 
     
 }
 
 nav{
   max-width: 100%;
+  height: 90px;
   display: flex;
   text-align: center;
       align-items: center;
       justify-content: center;
+      background-color: white;
+
 
 }
 
@@ -64,7 +69,7 @@ align-items: center;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 
 
 
@@ -471,12 +476,12 @@ align-items: center;
 
 }
 .contcolum img {
-  max-width: 300px;
+  max-width: 350px;
   height: 250px;
 }
 .vva img{
- max-width: 150px;
- height: 150px;
+ max-width: 350px;
+ height: 250px;
 
   
 }
@@ -741,7 +746,9 @@ width: 100%;
 
 
 .contcolum{
-
+margin: 0px;
+margin-bottom: 10px;
+padding: 10px;
   width: 90%;
   height: auto;
 font-size: 15px;
@@ -755,19 +762,16 @@ font-size: 15px;
 
 .colum{
   font-size: 20px;
- margin: 0px 10px;
+
+ margin: 0px;
+ margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
 }
 
-.colum h5{
-  font-size: 15px;
-  padding: 0px;
-  margin: 0px;
-  font-weight: normal;
-}
+
 .contcolum a{
   display: flex;
   text-decoration: none;
@@ -778,22 +782,26 @@ font-size: 15px;
 
 
 
+
 .colum h5{
-  font-size: 15px;
-  padding-bottom:  10px;
-  margin: 0px;
+  font-size: 20px;
+  padding: 0px ;
+
+  margin-top: 0px;
   font-weight: normal;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 
 .colum h2{
-  font-size: 13px;
+
+
+  font-size: 15px;
   padding: 0px 0px;
   margin: 0px;
+  margin-top: 0px;
   font-weight: bold;
 }
-
 
 
 .colum p{
@@ -804,8 +812,8 @@ font-size: 15px;
 }
 
 .contcolum img{
-  width: 350px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
 }
 .cadastre{
   display: flex;
@@ -844,7 +852,12 @@ font-size: 15px;
   
   
   }
-
+  .vva img{
+    max-width: 100px;
+    height: 100px;
+   
+     
+   }
 
     }
 
