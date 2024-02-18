@@ -1014,10 +1014,10 @@ font-size: 15px;
 .prev2, .next2 {
   cursor: pointer;
   position: absolute;
-  top: 35%;
+  top: 60px;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: 0px;
   color: white;
   font-weight: bold;
   font-size: 18px;
