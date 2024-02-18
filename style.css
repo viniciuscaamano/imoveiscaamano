@@ -32,8 +32,7 @@
 
 
 /*aaaaa*/
-.mySlides {display: none}
-img {vertical-align: middle;}
+
 
 /* Slideshow container */
 .slideshow-container2 {
@@ -51,7 +50,7 @@ height: auto;
 .prev2, .next2 {
   cursor: pointer;
   position: absolute;
-  top: 350px;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -1010,21 +1009,7 @@ font-size: 15px;
   transition: background-color 0.6s ease;
 }
 
-/* Next & previous buttons */
-.prev2, .next2 {
-  cursor: pointer;
-  position: absolute;
-  top: 60px;
-  width: auto;
-  padding: 16px;
-  margin-top: 0px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+
 
 
 .btn{
