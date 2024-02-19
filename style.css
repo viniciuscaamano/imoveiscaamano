@@ -746,7 +746,7 @@ font-weight: 600;
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .mobile-container { display: block;max-width:100%;}
 main{
     display: flex;
