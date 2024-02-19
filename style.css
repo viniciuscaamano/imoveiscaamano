@@ -467,7 +467,7 @@ height: auto;
 }
 .continfo  a {
   text-decoration: none;
-  
+
 }
 
 footer{
@@ -539,21 +539,43 @@ footer img{
 margin-bottom: 700px;
 }
 
+.cadastrev{
+  text-align: left;
+}
+
 .cadastre{
 display: flex;
 text-align: center;
+flex-direction: column;
 margin: 50px 0px;
 
-
-
-
-
-   
+  
 
 }
+
+.cadastre button{
+  width: 700px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border: 0px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastre img{
+  width: 30px;
+}
+
+.cadastre a{
+  text-decoration: none;
+}
+
 .cadastre p{
   font-size: 25px;
-  padding: 40px 0px;
+  padding: 25px 0px;
 
 }
 
@@ -1012,6 +1034,10 @@ font-size: 15px;
     
   
   }
+
+  .cadastre button{
+    width: 300px;
+  }
   .colum{
     display: flex;
     flex-direction: column;
@@ -1023,7 +1049,7 @@ font-size: 15px;
   .cadastre p{
     font-size: 15px;
     margin: 0px ;
-    padding: 30px 0px;
+    padding: 25px 0px;
   }
   
   .cadastre h2{
