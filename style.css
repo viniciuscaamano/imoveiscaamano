@@ -92,6 +92,16 @@ height: auto;
 
 }
 
+.slideshow-container2 img{
+  max-width: 100%;
+  position: relative;
+  
+height: 810px;
+
+
+
+}
+
 
 
 /* Next & previous buttons */
@@ -1163,7 +1173,26 @@ background-color: rgba(214, 200, 1, 0.39);
   box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.24);
 }
 
+/* Slideshow container */
+.slideshow-container2 {
+  max-width: 100%;
+  position: relative;
+  
+height: auto;
 
+
+
+}
+
+.slideshow-container2 img{
+  max-width: 100%;
+  position: relative;
+  
+height: 300px;
+
+
+
+}
 
     }
 
