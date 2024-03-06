@@ -702,8 +702,10 @@ margin-bottom: 350px;
 
 }
 .contcolum img {
-  max-width: 350px;
+  width: 350px;
   height: 250px;
+  padding: 0px;
+  margin: 0px;
 }
 .vva img{
 width: 550px;
