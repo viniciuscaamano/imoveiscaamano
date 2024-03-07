@@ -685,16 +685,16 @@ align-items: center;
 .show {display: block;}
 
 .vva{
-max-width: 100%;
+
 margin-bottom: 350px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
 }
 
 .contcolum {
-  width: 930px;
+  width: 1050px;
   margin-bottom: 12px;
 
 
@@ -702,21 +702,19 @@ margin-bottom: 350px;
 
 }
 .contcolum img {
-  width: 350px;
+width:  320px;
   height: 250px;
-  padding: 0px;
-  margin: 0px;
-}
-.vva img{
-width: 550px;
- height: 250px;
 
   
 }
 
+
+
+
 .colum{
   display: flex;
   flex-direction: column;
+
   margin: 20px 40px;
 
 
@@ -989,9 +987,9 @@ margin: 0px 0px;
 .contcolum{
 margin: 0px;
 margin-bottom: 10px;
-padding: 10px 0px;
-padding-left: 10px;
-  width: 95%;
+padding: 0px 0px;
+
+  width: 90%;
   height: auto;
 font-size: 15px;
   display: flex;
@@ -1005,8 +1003,7 @@ font-size: 15px;
 .colum{
   font-size: 20px;
 
- margin: 0px;
- margin-left: 20px;
+padding: 10px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1054,8 +1051,9 @@ font-size: 15px;
 }
 
 .contcolum img{
-  width: 170px;
-  height: 100px;
+  max-width: 130px;
+  height: 130px;
+  object-fit: cover;
 }
 .cadastre{
   display: flex;
@@ -1075,7 +1073,7 @@ font-size: 15px;
   .colum{
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 0px 10px;
   
   
   }
@@ -1104,9 +1102,9 @@ font-size: 15px;
   
   }
   .vva img{
-    max-width: 100px;
-    height: 100px;
-   
+    max-width: 130px;
+    height: 130px;
+   object-fit: cover;
      
    }
 
